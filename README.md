@@ -19,6 +19,24 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - Combines different tables, adds logic, and creates final business-ready datasets. 
 - Used for reporting, SQL queries, and dashboards.
 
+## 🚀 Project Requirements
+
+### 🎯 Objective
+Build a SQL Server data warehouse that combines ERP and CRM sales data for clean analysis and reporting.
+
+### 🔌 Key Requirements
+- Load data from two CSV sources (ERP & CRM)
+- Clean and fix data quality issues
+- Merge both sources into a single analytical data model
+- Focus only on the latest dataset (no history needed)
+- Provide simple documentation of the data model
+
+### 🧱 Project Includes
+1. **Data Architecture:** Medallion layers (Bronze → Silver → Gold)
+2. **ETL Pipelines:** Extract, clean, transform, and load data
+3. **Data Modeling:** Create fact & dimension tables
+4. **Analytics:** Build SQL queries or dashboards for insights
+
 
 
 
