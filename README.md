@@ -2,6 +2,7 @@
 ## 📌**Project Overview**
 This project is a simple SQL Data Warehouse built using **Bronze, Silver, and Gold Layers**.The main idea is to take raw data from sources (like CRM/ERP CSV files), clean it, and finally create useful tables and views for reporting.
 
+
 ## 🏭**Data Architecture**
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** Layers:
 ![Data Architecture](docs/high_level_architecture.png)
@@ -18,6 +19,24 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 - Contains **Views**, not tables.
 - Combines different tables, adds logic, and creates final business-ready datasets. 
 - Used for reporting, SQL queries, and dashboards.
+
+---
+
+## 🚀 Project Requirements
+
+### Building the Data Warehouse (Data Engineering)
+
+#### Objective
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+#### Specifications
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Scope**: Focus on the latest dataset only; historization of data is not required.
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+---
 
 
 ## 🗂️ Repository Structure 
@@ -48,7 +67,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
     │   │   ├── ddl_bronze.sql
     │   │   └── proc_load_bronze.sql
     │   ├── gold/
-    │   │   └── dd,_gold.sql
+    │   │   └── ddl_gold.sql
     │   ├── init_database.sql
     │   └── silver/
     │       ├── ddl_silver.sql
@@ -58,7 +77,12 @@ The data architecture for this project follows Medallion Architecture **Bronze**
         └── quality_checks_silver.sql
 ```
 
-##☀️About Me
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+
+## ☀️About Me
 
 Hi, I'm **Shaik Munna**.  
 I am developing strong skills in Data Analytics, with a focus on SQL, data cleaning, and building structured analytical datasets.  
