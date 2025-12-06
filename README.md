@@ -69,6 +69,8 @@ Hi, I'm **Shaik Munna**.
 I am developing strong skills in Data Analytics, with a focus on SQL, data cleaning, and building structured analytical datasets.  
 I am committed to improving my analytical abilities and working on projects that turn data into clear, meaningful insights.
 
+## 📌 Credits & Special Thanks
 
+I would like to give special thanks to **Baraa Khatib Salkini** ([DataWithBaraa](https://github.com/DataWithBaraa)), Senior Data Engineer (17+ years of experience, ex-Mercedes Benz).
 
-
+This project is inspired by his Modern SQL Data Warehouse work. His guidance, clear explanations, and practical examples helped me understand complex data engineering concepts and greatly influenced the design and structure of this repository.
